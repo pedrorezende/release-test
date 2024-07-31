@@ -1,5 +1,10 @@
 {
+  "include-v-in-tag": true,
+  "separate-pull-requests": true,
   "packages": {
-    "cool-app": {}
+    "cool-app": {
+      "path": "cool-app",
+      "release-type": "node"
+    }
   }
 }
